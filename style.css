@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    
+}
+
+header{
+    background-color: #820B8A;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header ol{
+ display: flex;
+ gap: 2rem;
+}
+
+header ol, header li {
+    list-style: none;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header a:hover {
+    background: #922A99;
+    padding: 8px;
+}
+
+header li:hover {
+    transform: scale(1.1);
+    transition: transform .4s; 
+}
+
+section {
+    border: 1px solid  #922A99;
+    height: calc(100vh - 6rem);
+}
+
+#listas {
+    margin-top: 6rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+}
